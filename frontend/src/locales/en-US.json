@@ -1,0 +1,698 @@
+{
+  "app": {
+    "name": "Doc.AI",
+    "tagline": "Intelligent Personal Document Management",
+    "description": "Organize, analyze and get valuable insights from your personal documents with artificial intelligence"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Register",
+    "dashboard": "Dashboard",
+    "documents": "Documents",
+    "profile": "Profile",
+    "settings": "Settings",
+    "consents": "Consents",
+    "logout": "Logout"
+  },
+  "home": {
+    "hero": {
+      "title": "Transform your documents into valuable insights",
+      "subtitle": "Organize, analyze and get important information from your personal documents with the help of artificial intelligence",
+      "cta": "Get started"
+    },
+    "features": {
+      "title": "Powerful features",
+      "subtitle": "Everything you need to manage your personal documents",
+      "secure": {
+        "title": "Security first",
+        "description": "Your documents are encrypted and protected with the most advanced security technologies"
+      },
+      "organize": {
+        "title": "Simplified organization",
+        "description": "Categorize and easily find your documents with our intuitive interface"
+      },
+      "ai": {
+        "title": "Intelligent analysis",
+        "description": "Our AI extracts important information and generates valuable insights from your documents"
+      },
+      "organize": {
+        "title": "Simplified organization",
+        "description": "Categorize and easily find your documents with our intuitive interface"
+      },
+      "access": {
+        "title": "Access anywhere",
+        "description": "Access your documents from any device, anytime"
+      }
+    },
+    "privacy": {
+      "title": "Your privacy is our priority",
+      "description": "Developed based on the Brazilian General Data Protection Law (LGPD), ensuring full control over your personal information",
+      "learn_more": "Learn more about our privacy policy"
+    },
+    "testimonials": {
+      "title": "What our users say",
+      "subtitle": "Join thousands of satisfied users who trust Doc.AI"
+    },
+    "cta": {
+      "title": "Ready to get started?",
+      "subtitle": "Create your account now and start organizing your documents",
+      "button": "Create free account"
+    }
+  },
+  "about": {
+    "title": "About Doc.AI",
+    "subtitle": "Our mission is to simplify document management with artificial intelligence",
+    "description": "Doc.AI was created to help people organize and extract value from their personal documents. Using artificial intelligence, we transform simple documents into valuable insights.",
+    "vision": {
+      "title": "Our Vision",
+      "description": "We believe that everyone should have easy access to the information contained in their documents, in a secure and private way."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To simplify document management and help people make better decisions based on the information contained in their documents."
+    },
+    "values": {
+      "title": "Our Values",
+      "privacy": {
+        "title": "Privacy",
+        "description": "We respect your privacy and give you full control over your data."
+      },
+      "security": {
+        "title": "Security",
+        "description": "We use the most advanced security technologies to protect your documents."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We are always looking for new ways to improve our services and provide a better experience."
+      },
+      "transparency": {
+        "title": "Transparency",
+        "description": "We are transparent about how we use your data and what we do with it."
+      }
+    },
+    "team": {
+      "title": "Our Team",
+      "description": "We are a team of passionate professionals dedicated to creating the best document management experience."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We'd love to hear from you",
+    "form": {
+      "name": "Full name",
+      "email": "Email address",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send message"
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address"
+    },
+    "success": "Your message has been sent successfully. We'll get back to you soon!",
+    "error": "There was an error sending your message. Please try again."
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Sign in to your account",
+      "email": "Email address",
+      "password": "Password",
+      "remember": "Remember me",
+      "forgot": "Forgot password?",
+      "submit": "Sign in",
+      "no_account": "Don't have an account?",
+      "register": "Create one now",
+      "admin": "Admin login"
+    },
+    "register": {
+      "title": "Create your account",
+      "subtitle": "Start organizing your documents",
+      "name": "Full name",
+      "email": "Email address",
+      "password": "Password",
+      "confirm": "Confirm password",
+      "terms": "I agree to the terms of service and privacy policy",
+      "submit": "Create account",
+      "has_account": "Already have an account?",
+      "login": "Sign in"
+    },
+    "forgot": {
+      "title": "Forgot password",
+      "subtitle": "Enter your email to reset your password",
+      "email": "Email address",
+      "submit": "Send reset link",
+      "back": "Back to login"
+    },
+    "reset": {
+      "title": "Reset password",
+      "subtitle": "Enter your new password",
+      "password": "New password",
+      "confirm": "Confirm new password",
+      "submit": "Reset password"
+    },
+    "verify": {
+      "title": "Verify your email",
+      "subtitle": "Check your inbox for a verification link",
+      "message": "We've sent a verification link to your email. Please click on the link to verify your account.",
+      "resend": "Resend verification email",
+      "back": "Back to login"
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome, {{name}}",
+    "summary": {
+      "title": "Summary",
+      "documents": "Documents",
+      "categories": "Categories",
+      "storage": "Storage used",
+      "insights": "Insights"
+    },
+    "recent": {
+      "title": "Recent documents",
+      "view_all": "View all"
+    },
+    "insights": {
+      "title": "Insights",
+      "view_all": "View all"
+    },
+    "activity": {
+      "title": "Recent activity",
+      "view_all": "View all"
+    }
+  },
+  "documents": {
+    "title": "My Documents",
+    "upload": "Upload document",
+    "search": "Search documents",
+    "filter": "Filter",
+    "sort": "Sort by",
+    "empty": "No documents found",
+    "categories": {
+      "all": "All",
+      "financial": "Financial",
+      "health": "Health",
+      "legal": "Legal",
+      "personal": "Personal",
+      "work": "Work",
+      "other": "Other"
+    },
+    "status": {
+      "processing": "Processing",
+      "analyzed": "Analyzed",
+      "error": "Error"
+    },
+    "upload_modal": {
+      "title": "Upload document",
+      "drag": "Drag and drop your document here",
+      "or": "or",
+      "browse": "Browse files",
+      "max_size": "Maximum file size: {{size}}MB",
+      "formats": "Supported formats: PDF, JPG, PNG",
+      "category": "Category",
+      "name": "Document name (optional)",
+      "description": "Description (optional)",
+      "submit": "Upload",
+      "cancel": "Cancel",
+      "error_format": "Unsupported file format. Please upload a PDF, JPG or PNG.",
+      "error_size": "The file is too large. Maximum size is {{size}}MB.",
+      "error_no_file": "Please select a file to upload.",
+      "error_no_category": "Please select a category.",
+      "error_upload": "An error occurred while uploading the document. Please try again."
+    },
+    "detail": {
+      "back": "Back to documents",
+      "download": "Download",
+      "delete": "Delete",
+      "share": "Share",
+      "edit": "Edit",
+      "info": "Document information",
+      "summary": "AI Summary",
+      "history": "History",
+      "related": "Related documents",
+      "delete_confirm": {
+        "title": "Delete Document",
+        "message": "Are you sure you want to delete this document? This action cannot be undone.",
+        "confirm": "Delete",
+        "cancel": "Cancel"
+      }
+    }
+  },
+  "consents": {
+    "title": "Consent Management",
+    "subtitle": "Manage how your data is used",
+    "description": "Control how your data is processed and shared. You can change your preferences at any time.",
+    "data_processing": {
+      "title": "Data Processing",
+      "description": "Allows basic processing of your data to provide essential services. This consent is required for the system to function.",
+      "required": "Required"
+    },
+    "ai_processing": {
+      "title": "AI Processing",
+      "description": "Allows your documents to be analyzed by AI algorithms to extract relevant information and generate insights."
+    },
+    "marketing_emails": {
+      "title": "Marketing Emails",
+      "description": "Allows sending emails with news, tips, and special offers related to our services."
+    },
+    "third_party_sharing": {
+      "title": "Third-Party Sharing",
+      "description": "Allows sharing of aggregated and anonymous data with partners to improve our services."
+    },
+    "history": {
+      "title": "Consent History",
+      "description": "View the complete history of changes to your consents.",
+      "date": "Date",
+      "consent": "Consent",
+      "status": "Status",
+      "granted": "Granted",
+      "revoked": "Revoked",
+      "show": "View history",
+      "hide": "Hide history",
+      "view": "View history"
+    },
+    "save": "Save preferences",
+    "save_success": "Consent preferences updated successfully!",
+    "save_error": "Error updating consent preferences."
+  },
+  "profile": {
+    "title": "My Profile",
+    "personal": {
+      "title": "Personal information",
+      "name": "Full name",
+      "email": "Email",
+      "save": "Save changes"
+    },
+    "password": {
+      "title": "Change password",
+      "current": "Current password",
+      "new": "New password",
+      "confirm": "Confirm new password",
+      "save": "Update password"
+    },
+    "data": {
+      "title": "My data",
+      "export": "Export my data",
+      "delete": "Delete my account",
+      "delete_confirm": {
+        "title": "Delete account",
+        "message": "Are you sure you want to delete your account? This action cannot be undone and all your data will be permanently removed.",
+        "type": "Type \"delete\" to confirm",
+        "cancel": "Cancel",
+        "confirm": "Delete my account"
+      }
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "save": "Save settings",
+    "save_success": "Settings saved successfully!",
+    "save_error": "Error saving settings.",
+    "appearance": {
+      "title": "Appearance",
+      "theme": "Dark theme",
+      "language": "Language"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "email": "Email notifications",
+      "push": "Push notifications",
+      "document_updates": "Document updates",
+      "security_alerts": "Security alerts",
+      "marketing_emails": "Marketing emails"
+    },
+    "privacy": {
+      "title": "Privacy",
+      "manage_consents": "Manage consents",
+      "export_data": "Export my data",
+      "delete_account": "Delete my account"
+    }
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Admin Dashboard",
+      "subtitle": "System overview and statistics",
+      "users": "Total users",
+      "documents": "Total documents",
+      "storage": "Storage used",
+      "active_users": "Active users",
+      "recent_logins": "Recent logins",
+      "system_health": "System health"
+    },
+    "ai_settings": {
+      "title": "AI Settings",
+      "subtitle": "Manage artificial intelligence providers",
+      "providers": {
+        "add": "Add Provider",
+        "edit": "Edit Provider",
+        "delete": "Delete Provider",
+        "test": "Test Connection"
+      },
+      "provider_options": {
+        "openai": "OpenAI",
+        "azure": "Azure OpenAI",
+        "anthropic": "Anthropic",
+        "cohere": "Cohere",
+        "google": "Google AI",
+        "huggingface": "Hugging Face",
+        "deepseek": "DeepSeek AI",
+        "perplexity": "Perplexity AI",
+        "llama": "Meta Llama",
+        "grok": "Grok AI"
+      },
+      "modal": {
+        "add_title": "Add AI Provider",
+        "edit_title": "Edit AI Provider",
+        "provider": "Provider",
+        "name": "Name",
+        "api_key": "API Key",
+        "model": "Model",
+        "is_active": "Active",
+        "save": "Save",
+        "cancel": "Cancel"
+      },
+      "test": "Test Connection",
+      "test_success": "Connection tested successfully!",
+      "test_error": "Error testing connection. Check the API key.",
+      "save_success": "Provider saved successfully!",
+      "save_error": "Error saving provider."
+    },
+    "documents": {
+      "title": "Document Management",
+      "subtitle": "View and manage all system documents",
+      "search": "Search documents",
+      "filter": "Filter",
+      "user": "User",
+      "categories": {
+        "all": "All",
+        "financial": "Financial",
+        "health": "Health",
+        "legal": "Legal",
+        "personal": "Personal",
+        "work": "Work",
+        "other": "Other"
+      },
+      "columns": {
+        "title": "Title",
+        "user": "User",
+        "category": "Category",
+        "created": "Created",
+        "size": "Size",
+        "actions": "Actions"
+      },
+      "actions": {
+        "view": "View",
+        "delete": "Delete"
+      },
+      "delete_confirm": {
+        "title": "Delete Document",
+        "message": "Are you sure you want to delete this document? This action cannot be undone.",
+        "cancel": "Cancel",
+        "confirm": "Yes, delete"
+      },
+      "no_documents": "No documents found",
+      "adjust_filters": "Try adjusting your search filters."
+    },
+    "users": {
+      "title": "User Management",
+      "subtitle": "Manage system users",
+      "add": "Add user",
+      "search": "Search users",
+      "filter": "Filter",
+      "filter_status": "Filter by status",
+      "filter_all": "All statuses",
+      "filter_title": "Filters",
+      "export": "Export",
+      "never_logged_in": "Never logged in",
+      "empty": {
+        "title": "No users found",
+        "default": "No users have been created yet. Click 'Add user' to get started.",
+        "filtered": "No users match the selected filters. Try adjusting your search criteria."
+      },
+      "columns": {
+        "name": "Name",
+        "email": "Email",
+        "role": "Role",
+        "status": "Status",
+        "created": "Created",
+        "last_login": "Last login",
+        "actions": "Actions"
+      },
+      "roles": {
+        "admin": "Admin",
+        "user": "User"
+      },
+      "status": {
+        "active": "Active",
+        "inactive": "Inactive",
+        "pending": "Pending",
+        "suspended": "Suspended",
+        "blocked": "Blocked"
+      },
+      "actions": {
+        "edit": "Edit",
+        "delete": "Delete",
+        "activate": "Activate",
+        "deactivate": "Deactivate",
+        "reset_password": "Reset password",
+        "block": "Block",
+        "unblock": "Unblock"
+      },
+      "modal": {
+        "add_title": "Add User",
+        "edit_title": "Edit User",
+        "name": "Full name",
+        "email": "Email address",
+        "role": "Role",
+        "status": "Status",
+        "password": "Password",
+        "confirm": "Confirm password",
+        "cancel": "Cancel",
+        "save": "Save"
+      },
+      "delete_confirm": {
+        "title": "Delete User",
+        "message": "Are you sure you want to delete this user? This action cannot be undone.",
+        "cancel": "Cancel",
+        "confirm": "Yes, delete"
+      },
+      "success": {
+        "add": "User added successfully!",
+        "edit": "User updated successfully!",
+        "delete": "User deleted successfully!",
+        "block": "User blocked successfully!",
+        "unblock": "User unblocked successfully!"
+      },
+      "error": {
+        "add": "Error adding user.",
+        "edit": "Error updating user.",
+        "delete": "Error deleting user.",
+        "block": "Error blocking user.",
+        "unblock": "Error unblocking user."
+      },
+      "block_confirm": {
+        "title": "Block User",
+        "message": "Are you sure you want to block this user? They will not be able to access the system until unblocked.",
+        "unblock_title": "Unblock User",
+        "unblock_message": "Are you sure you want to unblock this user? They will be able to access the system again."
+      }
+    },
+    "settings": {
+      "title": "System Settings",
+      "subtitle": "Manage global system settings",
+      "save": "Save settings",
+      "system": {
+        "title": "System Settings",
+        "maintenance": "Maintenance mode",
+        "maintenance_description": "When enabled, only administrators can access the system",
+        "debug": "Debug mode",
+        "debug_description": "Enables detailed logs and debugging information"
+      },
+      "security": {
+        "title": "Security Settings",
+        "allow_registration": "Allow new user registration",
+        "require_email_verification": "Require email verification",
+        "session_timeout": "Session timeout (minutes)",
+        "password_expiry": "Password expiration (days)",
+        "password_min_length": "Minimum password length"
+      },
+      "ai": {
+        "title": "AI Settings",
+        "configure": "Configure AI Providers"
+      }
+    },
+    "profile": {
+      "title": "Administrator Profile",
+      "subtitle": "Manage your personal information and account settings",
+      "personal_info": "Personal Information",
+      "security": "Security",
+      "permissions": "Permissions",
+      "save": "Save changes"
+    },
+    "logs": {
+      "title": "System Logs",
+      "subtitle": "View system activity logs",
+      "filter": "Filter",
+      "export": "Export",
+      "columns": {
+        "timestamp": "Date/Time",
+        "level": "Level",
+        "user": "User",
+        "action": "Action",
+        "details": "Details",
+        "ip": "IP Address"
+      },
+      "levels": {
+        "info": "Information",
+        "warning": "Warning",
+        "error": "Error",
+        "critical": "Critical"
+      },
+      "actions": {
+        "login": "Login",
+        "logout": "Logout",
+        "create": "Create",
+        "update": "Update",
+        "delete": "Delete",
+        "view": "View",
+        "export": "Export",
+        "import": "Import",
+        "system": "System"
+      },
+      "no_logs": "No logs found"
+    },
+    "plans": {
+      "title": "Plan Management",
+      "subtitle": "Manage subscription plans",
+      "add": "Add plan",
+      "search": "Search plans",
+      "filter": "Filter",
+      "columns": {
+        "name": "Name",
+        "price": "Price",
+        "billing_cycle": "Cycle",
+        "features": "Features",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "status": {
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "billing_cycle": {
+        "monthly": "Monthly",
+        "yearly": "Yearly"
+      },
+      "actions": {
+        "edit": "Edit",
+        "activate": "Activate",
+        "deactivate": "Deactivate",
+        "delete": "Delete"
+      },
+      "modal": {
+        "add_title": "Add Plan",
+        "edit_title": "Edit Plan",
+        "name": "Plan name",
+        "description": "Description",
+        "price": "Price ($)",
+        "billing_cycle": "Billing cycle",
+        "storage_limit": "Storage limit (MB)",
+        "document_limit": "Document limit",
+        "ai_analysis_limit": "AI analysis limit",
+        "features": "Features (one per line)",
+        "is_popular": "Highlight as popular plan",
+        "is_active": "Active plan",
+        "cancel": "Cancel",
+        "save": "Save"
+      },
+      "delete_confirm": {
+        "title": "Delete Plan",
+        "message": "Are you sure you want to delete this plan? This action cannot be undone.",
+        "cancel": "Cancel",
+        "confirm": "Yes, delete"
+      },
+      "success": {
+        "add": "Plan added successfully!",
+        "edit": "Plan updated successfully!",
+        "delete": "Plan deleted successfully!",
+        "activate": "Plan activated successfully!",
+        "deactivate": "Plan deactivated successfully!"
+      },
+      "error": {
+        "add": "Error adding plan.",
+        "edit": "Error updating plan.",
+        "delete": "Error deleting plan.",
+        "activate": "Error activating plan.",
+        "deactivate": "Error deactivating plan."
+      }
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "export": "Export",
+    "import": "Import",
+    "download": "Download",
+    "upload": "Upload",
+    "share": "Share",
+    "copy": "Copy",
+    "close": "Close",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "yes": "Yes",
+    "no": "No",
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Information",
+    "required": "Required",
+    "optional": "Optional",
+    "select": "Select",
+    "all": "All",
+    "none": "None",
+    "more": "More",
+    "less": "Less",
+    "show_more": "Show more",
+    "show_less": "Show less",
+    "not_found": "Not found",
+    "empty": "Empty",
+    "no_results": "No results found",
+    "no_data": "No data available"
+  },
+  "footer": {
+    "rights": "© {{year}} Doc.AI. All rights reserved.",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "contact": "Contact"
+  },
+  "errors": {
+    "required": "This field is required",
+    "email": "Please enter a valid email address",
+    "min_length": "Must be at least {{length}} characters",
+    "max_length": "Must be at most {{length}} characters",
+    "password_match": "Passwords do not match",
+    "invalid_credentials": "Invalid email or password",
+    "server_error": "Server error. Please try again later.",
+    "connection_error": "Connection error. Please check your internet and try again.",
+    "unauthorized": "Unauthorized. Please log in again.",
+    "forbidden": "You don't have permission to access this resource.",
+    "not_found": "Resource not found.",
+    "validation_error": "Validation error. Please check your input."
+  }
+}

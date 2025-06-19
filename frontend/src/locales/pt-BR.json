@@ -1,0 +1,708 @@
+{
+  "app": {
+    "name": "Doc.AI",
+    "tagline": "Gerenciamento Inteligente de Documentos Pessoais",
+    "description": "Organize, analise e obtenha insights valiosos de seus documentos pessoais com inteligência artificial"
+  },
+  "common": {
+    "loading": "Carregando...",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "view": "Visualizar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "add": "Adicionar",
+    "remove": "Remover",
+    "confirm": "Confirmar",
+    "back": "Voltar",
+    "next": "Próximo",
+    "previous": "Anterior",
+    "submit": "Enviar",
+    "reset": "Redefinir",
+    "close": "Fechar",
+    "yes": "Sim",
+    "no": "Não",
+    "all": "Todos",
+    "none": "Nenhum",
+    "more": "Mais",
+    "less": "Menos",
+    "details": "Detalhes",
+    "actions": "Ações",
+    "status": "Status",
+    "date": "Data",
+    "type": "Tipo",
+    "category": "Categoria",
+    "description": "Descrição",
+    "title": "Título",
+    "name": "Nome",
+    "email": "Email",
+    "phone": "Telefone",
+    "address": "Endereço",
+    "city": "Cidade",
+    "state": "Estado",
+    "country": "País",
+    "zipCode": "CEP",
+    "amount": "Valor",
+    "total": "Total",
+    "quantity": "Quantidade",
+    "price": "Preço",
+    "discount": "Desconto",
+    "tax": "Imposto",
+    "subtotal": "Subtotal",
+    "not_found": "Não encontrado",
+    "empty": "Vazio",
+    "no_results": "Nenhum resultado encontrado",
+    "no_data": "Nenhum dado disponível",
+    "no_text_extracted": "Nenhum texto extraído"
+  },
+  "auth": {
+    "login": {
+      "title": "Entrar",
+      "subtitle": "Acesse sua conta",
+      "email": "Email",
+      "password": "Senha",
+      "remember": "Lembrar-me",
+      "forgot": "Esqueceu sua senha?",
+      "submit": "Entrar",
+      "no_account": "Não tem uma conta?",
+      "register": "Cadastre-se",
+      "success": "Login realizado com sucesso!",
+      "error": "Erro ao fazer login. Verifique suas credenciais."
+    },
+    "register": {
+      "title": "Cadastro",
+      "subtitle": "Crie sua conta",
+      "name": "Nome completo",
+      "email": "Email",
+      "password": "Senha",
+      "confirm_password": "Confirmar senha",
+      "terms": "Eu concordo com os Termos de Serviço e Política de Privacidade",
+      "submit": "Cadastrar",
+      "already_account": "Já tem uma conta?",
+      "login": "Entrar",
+      "success": "Cadastro realizado com sucesso!",
+      "error": "Erro ao criar conta. Tente novamente."
+    },
+    "forgot_password": {
+      "title": "Esqueceu sua senha?",
+      "subtitle": "Enviaremos um link para redefinir sua senha",
+      "email": "Email",
+      "submit": "Enviar link",
+      "back_to_login": "Voltar para o login",
+      "success": "Link enviado com sucesso! Verifique seu email.",
+      "error": "Erro ao enviar link. Verifique seu email e tente novamente."
+    },
+    "reset_password": {
+      "title": "Redefinir senha",
+      "subtitle": "Crie uma nova senha para sua conta",
+      "password": "Nova senha",
+      "confirm_password": "Confirmar nova senha",
+      "submit": "Redefinir senha",
+      "success": "Senha redefinida com sucesso!",
+      "error": "Erro ao redefinir senha. Tente novamente."
+    },
+    "logout": {
+      "success": "Logout realizado com sucesso!",
+      "error": "Erro ao fazer logout. Tente novamente."
+    }
+  },
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "contact": "Contato",
+    "login": "Entrar",
+    "register": "Cadastrar",
+    "dashboard": "Dashboard",
+    "medical": "Médico",
+    "financial": "Financeiro",
+    "budget": "Orçamentos",
+    "documents": "Documentos",
+    "profile": "Perfil",
+    "settings": "Configurações",
+    "consents": "Consentimentos",
+    "logout": "Sair"
+  },
+  "home": {
+    "hero": {
+      "title": "Transforme seus documentos em insights valiosos",
+      "subtitle": "Organize, analise e obtenha informações importantes de seus documentos pessoais com a ajuda da inteligência artificial",
+      "cta": "Comece agora"
+    },
+    "features": {
+      "title": "Recursos",
+      "subtitle": "Descubra o que o Doc.AI pode fazer por você",
+      "ai": {
+        "title": "Inteligência Artificial",
+        "description": "Análise avançada de documentos com IA para extrair informações relevantes"
+      },
+      "secure": {
+        "title": "Segurança em primeiro lugar",
+        "description": "Seus documentos são criptografados e protegidos com as mais avançadas tecnologias de segurança"
+      },
+      "organize": {
+        "title": "Organização simplificada",
+        "description": "Categorize e encontre facilmente seus documentos com nossa interface intuitiva"
+      },
+      "organization": {
+        "title": "Organização inteligente",
+        "description": "Categorização automática de documentos para fácil acesso"
+      },
+      "insights": {
+        "title": "Insights personalizados",
+        "description": "Obtenha recomendações e análises baseadas em seus documentos"
+      },
+      "security": {
+        "title": "Segurança e privacidade",
+        "description": "Seus dados são protegidos com criptografia de ponta a ponta"
+      },
+      "access": {
+        "title": "Acesso em qualquer lugar",
+        "description": "Acesse seus documentos de qualquer dispositivo, a qualquer momento"
+      }
+    },
+    "privacy": {
+      "title": "Sua privacidade é nossa prioridade",
+      "description": "Desenvolvido com base na Lei Geral de Proteção de Dados (Lei nº 13.709/2018), garantindo total controle sobre suas informações pessoais",
+      "learn_more": "Saiba mais sobre nossa política de privacidade"
+    },
+    "testimonials": {
+      "title": "O que nossos usuários dizem",
+      "subtitle": "Junte-se a milhares de usuários satisfeitos que confiam no Doc.AI"
+    },
+    "cta": {
+      "title": "Pronto para começar?",
+      "subtitle": "Crie sua conta agora e comece a organizar seus documentos",
+      "button": "Criar conta gratuita"
+    }
+  },
+  "dashboard": {
+    "welcome": "Bem-vindo(a), {{name}}!",
+    "summary": {
+      "title": "Resumo",
+      "documents": "Documentos",
+      "categories": "Categorias",
+      "storage": "Armazenamento usado",
+      "insights": "Insights"
+    },
+    "recent": {
+      "title": "Documentos recentes",
+      "view_all": "Ver todos",
+      "no_documents": "Nenhum documento recente",
+      "processed_on": "Processado em"
+    },
+    "insights": {
+      "title": "Insights",
+      "view_all": "Ver todos"
+    },
+    "stats": {
+      "title": "Estatísticas",
+      "documents_by_category": "Documentos por categoria",
+      "documents_by_month": "Documentos por mês",
+      "storage_usage": "Uso de armazenamento"
+    }
+  },
+  "documents": {
+    "title": "Meus Documentos",
+    "upload": "Enviar documento",
+    "upload_document": "Enviar Documento",
+    "search": "Buscar documentos",
+    "filter": "Filtrar",
+    "sort": "Ordenar por",
+    "empty": "Nenhum documento encontrado",
+    "document_type": "Tipo de Documento",
+    "select_type": "Selecione o tipo",
+    "select_file": "Selecionar arquivo",
+    "drag_or_click": "Arraste e solte um arquivo aqui, ou clique para selecionar",
+    "use_camera": "Usar câmera",
+    "capture": "Capturar",
+    "cancel": "Cancelar",
+    "remove": "Remover",
+    "uploading": "Enviando...",
+    "upload_success": "Documento processado com sucesso!",
+    "upload_error": "Erro ao processar documento",
+    "file_too_large": "O arquivo é muito grande. O tamanho máximo é 10MB.",
+    "invalid_file_type": "Tipo de arquivo inválido. Apenas imagens, PDFs e arquivos de texto são permitidos.",
+    "camera_error": "Erro ao acessar a câmera",
+    "processing": "Processando documento...",
+    "processing_message": "Processando documento. Isso pode levar até 1 minuto...",
+    "confirm_extraction": "Confirmar Extração",
+    "extraction_results": "Resultados da Extração",
+    "extraction_description": "Verifique os dados extraídos do seu documento e confirme se estão corretos.",
+    "extracted_text": "Texto Extraído",
+    "no_text_extracted": "Nenhum texto extraído",
+    "ai_insights": "Insights da IA",
+    "confirm": "Confirmar",
+    "reject": "Rejeitar",
+    "confirmation_success": "Documento salvo com sucesso!",
+    "confirmation_error": "Erro ao salvar documento",
+    "rejection_success": "Documento rejeitado",
+    "rejection_error": "Erro ao rejeitar documento",
+    "close_confirmation": "O processamento está em andamento. Tem certeza que deseja cancelar?",
+    "types": {
+      "medical": "Documento Médico",
+      "financial": "Documento Financeiro",
+      "budget": "Orçamento",
+      "personal": "Documento Pessoal",
+      "other": "Outro"
+    },
+    "categories": {
+      "all": "Todos",
+      "tecnologia": "Tecnologia",
+      "eletrodomestico": "Eletrodomésticos",
+      "moveis": "Móveis",
+      "veiculos": "Veículos",
+      "outros": "Outros"
+    },
+    "sort_options": {
+      "date_desc": "Data (mais recente)",
+      "date_asc": "Data (mais antigo)",
+      "name_asc": "Nome (A-Z)",
+      "name_desc": "Nome (Z-A)",
+      "category": "Categoria"
+    },
+    "status": {
+      "processing": "Processando",
+      "analyzed": "Analisado",
+      "error": "Erro"
+    },
+    "delete_confirm": {
+      "title": "Excluir documento",
+      "message": "Tem certeza que deseja excluir este documento? Esta ação não pode ser desfeita.",
+      "confirm": "Sim, excluir",
+      "cancel": "Cancelar"
+    }
+  },
+  "medical": {
+    "title": "Dashboard Médico",
+    "summary": {
+      "title": "Resumo",
+      "consultations": "Consultas",
+      "exams": "Exames",
+      "prescriptions": "Prescrições",
+      "upcoming": "Próximos agendamentos"
+    },
+    "vital_signs": {
+      "title": "Sinais Vitais",
+      "blood_pressure": "Pressão Arterial",
+      "heart_rate": "Frequência Cardíaca",
+      "temperature": "Temperatura",
+      "weight": "Peso",
+      "height": "Altura",
+      "bmi": "IMC"
+    },
+    "lab_results": {
+      "title": "Resultados de Exames",
+      "blood_count": "Hemograma",
+      "cholesterol": "Colesterol",
+      "glucose": "Glicose",
+      "thyroid": "Tireoide",
+      "liver": "Fígado",
+      "kidney": "Rim"
+    },
+    "medications": {
+      "title": "Medicamentos",
+      "active": "Ativos",
+      "history": "Histórico",
+      "name": "Nome",
+      "dosage": "Dosagem",
+      "frequency": "Frequência",
+      "start_date": "Data de Início",
+      "end_date": "Data de Término"
+    },
+    "consultations": {
+      "title": "Consultas",
+      "date": "Data",
+      "doctor": "Médico",
+      "specialty": "Especialidade",
+      "reason": "Motivo",
+      "diagnosis": "Diagnóstico",
+      "recommendations": "Recomendações"
+    },
+    "insights": {
+      "title": "Insights",
+      "trends": "Tendências",
+      "recommendations": "Recomendações",
+      "alerts": "Alertas"
+    }
+  },
+  "financial": {
+    "title": "Dashboard Financeiro",
+    "summary": {
+      "title": "Resumo",
+      "income": "Receitas",
+      "expenses": "Despesas",
+      "balance": "Saldo",
+      "pending": "Pendentes"
+    },
+    "expenses": {
+      "title": "Despesas",
+      "by_category": "Por Categoria",
+      "by_month": "Por Mês",
+      "recurring": "Recorrentes",
+      "one_time": "Únicas"
+    },
+    "income": {
+      "title": "Receitas",
+      "by_source": "Por Fonte",
+      "by_month": "Por Mês",
+      "recurring": "Recorrentes",
+      "one_time": "Únicas"
+    },
+    "cash_flow": {
+      "title": "Fluxo de Caixa",
+      "monthly": "Mensal",
+      "quarterly": "Trimestral",
+      "yearly": "Anual"
+    },
+    "insights": {
+      "title": "Insights",
+      "savings": "Oportunidades de Economia",
+      "trends": "Tendências",
+      "recommendations": "Recomendações",
+      "alerts": "Alertas"
+    },
+    "issuer": "Emissor",
+    "amount": "Valor",
+    "dueDate": "Data de Vencimento"
+  },
+  "budget": {
+    "title": "Orçamentos",
+    "totalBudgets": "Total de Orçamentos",
+    "totalAmount": "Valor Total",
+    "pendingBudgets": "Orçamentos Pendentes",
+    "approvedBudgets": "Orçamentos Aprovados",
+    "rejectedBudgets": "Orçamentos Rejeitados",
+    "expiredBudgets": "Orçamentos Expirados",
+    "categoryStats": "Orçamentos por Categoria",
+    "analyticsAndInsights": "Análises e Insights",
+    "budgetsByCategory": "Orçamentos por Categoria",
+    "budgetsByPriceRange": "Orçamentos por Faixa de Preço",
+    "topProviders": "Principais Fornecedores",
+    "averagePriceByGroup": "Preço Médio por Grupo",
+    "statusDistribution": "Distribuição por Status",
+    "amountByCategory": "Valor por Categoria",
+    "averageByCategory": "Média por Categoria",
+    "latestBudget": "Último Orçamento",
+    "filterByStatus": "Filtrar por Status",
+    "filterByCategory": "Filtrar por Categoria",
+    "sortByDate": "Por Data",
+    "sortByAmount": "Por Valor",
+    "sortByTitle": "Por Título",
+    "sortByProvider": "Por Fornecedor",
+    "provider": "Fornecedor",
+    "issueDate": "Data de Emissão",
+    "validUntil": "Válido até",
+    "amount": "Valor",
+    "category": "Categoria",
+    "allBudgetGroups": "Todos os Grupos de Orçamentos",
+    "noBudgetGroups": "Nenhum grupo de orçamentos encontrado",
+    "quotes": "orçamentos",
+    "quotesByProvider": "Orçamentos por Fornecedor",
+    "avgPrice": "preço médio",
+    "quotesInGroup": "Orçamentos neste grupo",
+    "bestPrice": "Melhor preço",
+    "bestReputation": "Melhor reputação",
+    "deliveryTime": "Prazo de entrega",
+    "days": "dias",
+    "notSpecified": "Não especificado",
+    "warranty": "Garantia",
+    "reputation": "Reputação",
+    "aiSummary": "Resumo da IA",
+    "aiSummaryText": "Você tem {{count}} orçamentos para {{product}}. A diferença de preço entre eles é de {{priceDiff}} ({{percentage}}%).",
+    "recommendation": "Recomendação",
+    "bestPriceAndReputation": "Este fornecedor oferece o melhor preço e também tem a melhor reputação.",
+    "lowestPriceConsiderReputation": "Este é o preço mais baixo, mas considere também {{provider}} que tem melhor reputação.",
+    "riskFactors": "Fatores de risco",
+    "aiDisclaimer": "Esta análise é gerada automaticamente e serve apenas como referência.",
+    "fullAnalysisComingSoon": "Análise completa em breve!",
+    "viewFullAnalysis": "Ver análise completa",
+    "shipping": "frete",
+    "groupManagement": "Gerenciamento de Grupos",
+    "createGroup": "Criar Grupo",
+    "itemsSelected": "itens selecionados",
+    "groupBudgets": "Agrupar Orçamentos",
+    "createNewGroup": "Criar novo grupo",
+    "enterGroupName": "Digite o nome do grupo",
+    "addToExistingGroup": "Adicionar a um grupo existente",
+    "statusUpdateSuccess": "Status atualizado com sucesso",
+    "groupAddSuccess": "Orçamentos adicionados ao grupo com sucesso",
+    "groupCreateSuccess": "Grupo criado com sucesso",
+    "confirmGrouping": "Deseja agrupar estes orçamentos?",
+    "errors": {
+      "minTwoBudgets": "Selecione pelo menos dois orçamentos para agrupar",
+      "groupNameRequired": "Nome do grupo é obrigatório",
+      "groupUpdateFailed": "Erro ao atualizar grupo",
+      "noBudgetsSelected": "Nenhum orçamento selecionado",
+      "statusUpdateFailed": "Erro ao atualizar status"
+    },
+    "status": {
+      "pending": "Pendente",
+      "approved": "Aprovado",
+      "rejected": "Recusado",
+      "closed": "Fechado",
+      "expired": "Expirado",
+      "analyzing": "Em Análise",
+      "converted": "Convertido"
+    },
+    "details": "Detalhes do Orçamento",
+    "financialDetails": "Detalhes Financeiros",
+    "items": "Itens",
+    "itemDescription": "Descrição",
+    "quantity": "Quantidade",
+    "unitPrice": "Preço Unitário",
+    "totalPrice": "Preço Total",
+    "notes": "Observações",
+    "aiAnalysis": "Análise da IA",
+    "aiRecommendation": "Recomendação da IA",
+    "contactInfo": "Informações de Contato",
+    "contactName": "Nome",
+    "contactEmail": "Email",
+    "contactPhone": "Telefone",
+    "paymentTerms": "Condições de Pagamento",
+    "deliveryTerms": "Condições de Entrega",
+    "warranty": "Garantia",
+    "compare": "Comparar Orçamentos",
+    "addToComparison": "Adicionar à Comparação",
+    "removeFromComparison": "Remover da Comparação",
+    "comparison": {
+      "title": "Comparação de Orçamentos",
+      "bestValue": "Melhor Custo-Benefício",
+      "lowestPrice": "Menor Preço",
+      "highestQuality": "Maior Qualidade",
+      "fastestDelivery": "Entrega Mais Rápida",
+      "bestWarranty": "Melhor Garantia"
+    },
+    "categories": {
+      "tecnologia": "Tecnologia",
+      "eletrodomestico": "Eletrodomésticos",
+      "moveis": "Móveis",
+      "veiculos": "Veículos",
+      "outros": "Outros"
+    }
+  },
+  "profile": {
+    "title": "Meu Perfil",
+    "personal": {
+      "title": "Informações pessoais",
+      "name": "Nome completo",
+      "email": "Email",
+      "save": "Salvar alterações"
+    },
+    "password": {
+      "title": "Alterar senha",
+      "current": "Senha atual",
+      "new": "Nova senha",
+      "confirm": "Confirmar nova senha",
+      "save": "Atualizar senha"
+    },
+    "preferences": {
+      "title": "Preferências",
+      "language": "Idioma",
+      "theme": "Tema",
+      "notifications": "Notificações",
+      "save": "Salvar preferências"
+    },
+    "subscription": {
+      "title": "Assinatura",
+      "current": "Plano atual",
+      "status": "Status",
+      "next_payment": "Próximo pagamento",
+      "upgrade": "Fazer upgrade",
+      "cancel": "Cancelar assinatura"
+    },
+    "data": {
+      "title": "Meus dados",
+      "download": "Baixar meus dados",
+      "delete": "Excluir minha conta"
+    }
+  },
+  "settings": {
+    "title": "Configurações",
+    "account": {
+      "title": "Conta",
+      "email": "Email",
+      "name": "Nome",
+      "language": "Idioma",
+      "timezone": "Fuso horário",
+      "save": "Salvar alterações"
+    },
+    "notifications": {
+      "title": "Notificações",
+      "email": "Notificações por email",
+      "push": "Notificações push",
+      "sms": "Notificações por SMS",
+      "save": "Salvar preferências"
+    },
+    "privacy": {
+      "title": "Privacidade",
+      "data_sharing": "Compartilhamento de dados",
+      "analytics": "Analytics",
+      "cookies": "Cookies",
+      "save": "Salvar preferências"
+    },
+    "appearance": {
+      "title": "Aparência",
+      "theme": "Tema",
+      "dark_mode": "Modo escuro",
+      "font_size": "Tamanho da fonte",
+      "save": "Salvar preferências"
+    },
+    "security": {
+      "title": "Segurança",
+      "two_factor": "Autenticação de dois fatores",
+      "sessions": "Sessões ativas",
+      "password": "Alterar senha",
+      "save": "Salvar configurações"
+    }
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Dashboard Administrativo",
+      "summary": "Resumo do Sistema",
+      "users": "Total de usuários",
+      "documents": "Total de documentos",
+      "storage": "Armazenamento usado",
+      "active_users": "Usuários ativos",
+      "recent_logins": "Logins recentes",
+      "system_health": "Saúde do sistema"
+    },
+    "ai_settings": {
+      "title": "Configurações de IA",
+      "subtitle": "Gerencie os provedores de inteligência artificial",
+      "providers": {
+        "add": "Adicionar Provedor",
+        "edit": "Editar Provedor",
+        "delete": "Excluir Provedor",
+        "test": "Testar Conexão",
+        "name": "Nome",
+        "provider": "Provedor",
+        "model": "Modelo",
+        "api_key": "Chave API",
+        "status": "Status",
+        "active": "Ativo",
+        "inactive": "Inativo",
+        "created_at": "Criado em",
+        "updated_at": "Atualizado em"
+      },
+      "provider_options": {
+        "openai": "OpenAI",
+        "azure": "Azure OpenAI",
+        "anthropic": "Anthropic",
+        "cohere": "Cohere",
+        "google": "Google AI",
+        "huggingface": "Hugging Face",
+        "deepseek": "DeepSeek",
+        "perplexity": "Perplexity",
+        "llama": "Llama",
+        "grok": "Grok",
+        "mistral": "Mistral AI",
+        "meta": "Meta AI"
+      },
+      "form": {
+        "name": "Nome do provedor",
+        "provider": "Provedor de IA",
+        "api_key": "Chave API",
+        "model": "Modelo",
+        "is_active": "Ativo",
+        "save": "Salvar",
+        "cancel": "Cancelar"
+      }
+    },
+    "users": {
+      "title": "Gerenciamento de Usuários",
+      "subtitle": "Visualize e gerencie todos os usuários do sistema",
+      "search": "Buscar usuários",
+      "filter": "Filtrar",
+      "add": "Adicionar Usuário",
+      "edit": "Editar Usuário",
+      "delete": "Excluir Usuário",
+      "name": "Nome",
+      "email": "Email",
+      "role": "Função",
+      "status": "Status",
+      "created_at": "Criado em",
+      "last_login": "Último login",
+      "actions": "Ações",
+      "roles": {
+        "admin": "Administrador",
+        "client": "Cliente",
+        "staff": "Equipe"
+      },
+      "status": {
+        "active": "Ativo",
+        "inactive": "Inativo",
+        "suspended": "Suspenso",
+        "pending": "Pendente"
+      }
+    },
+    "documents": {
+      "title": "Gerenciamento de Documentos",
+      "subtitle": "Visualize e gerencie todos os documentos do sistema",
+      "search": "Buscar documentos",
+      "filter": "Filtrar",
+      "user": "Usuário",
+      "categories": {
+        "all": "Todos",
+        "financial": "Financeiro",
+        "health": "Saúde",
+        "legal": "Jurídico",
+        "personal": "Pessoal",
+        "education": "Educação",
+        "work": "Trabalho",
+        "travel": "Viagem",
+        "other": "Outros"
+      }
+    },
+    "logs": {
+      "title": "Logs do Sistema",
+      "subtitle": "Visualize os logs de atividade do sistema",
+      "search": "Buscar logs",
+      "filter": "Filtrar",
+      "level": "Nível",
+      "message": "Mensagem",
+      "user": "Usuário",
+      "ip": "IP",
+      "timestamp": "Data/Hora",
+      "levels": {
+        "info": "Informação",
+        "warning": "Aviso",
+        "error": "Erro",
+        "critical": "Crítico"
+      }
+    },
+    "settings": {
+      "title": "Configurações do Sistema",
+      "subtitle": "Gerencie as configurações globais do sistema",
+      "general": "Geral",
+      "security": "Segurança",
+      "storage": "Armazenamento",
+      "email": "Email",
+      "backup": "Backup",
+      "maintenance": "Manutenção",
+      "save": "Salvar Configurações"
+    }
+  },
+  "footer": {
+    "rights": "© {{year}} Doc.AI. Todos os direitos reservados.",
+    "terms": "Termos de Serviço",
+    "privacy": "Política de Privacidade",
+    "contact": "Contato"
+  },
+  "errors": {
+    "required": "Este campo é obrigatório",
+    "email": "Por favor, insira um endereço de email válido",
+    "min_length": "Deve ter pelo menos {{length}} caracteres",
+    "max_length": "Deve ter no máximo {{length}} caracteres",
+    "password_match": "As senhas não coincidem",
+    "invalid_credentials": "Email ou senha inválidos",
+    "server_error": "Erro no servidor. Por favor, tente novamente mais tarde.",
+    "connection_error": "Erro de conexão. Verifique sua internet e tente novamente.",
+    "unauthorized": "Não autorizado. Por favor, faça login novamente.",
+    "forbidden": "Você não tem permissão para acessar este recurso.",
+    "not_found": "Recurso não encontrado.",
+    "validation_error": "Erro de validação. Por favor, verifique seus dados."
+  }
+}
