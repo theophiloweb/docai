@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: docai-frontend
+    name: docai - frontend
     env: static
     staticPublishPath: build
     routes:
