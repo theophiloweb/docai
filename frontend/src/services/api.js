@@ -17,12 +17,12 @@ const getUserType = () => {
 
 // Criar instância do Axios com configurações base
 const api = axios.create({
-  baseURL: 'http://localhost:3001/api',
+  baseURL: process.env.REACT_APP_API_URL,
   headers: {
     'Content-Type': 'application/json',
     'Accept': 'application/json'
   },
-  timeout: 60000 // 60 segundos
+  timeout: process.env.REACT_APP_TIMEOUT ? parseInt(process.env.REACT_APP_TIMEOUT) : 60000 // Usa o timeout do .env ou 60 segundos como padrão
 });
 
 // Interceptor para adicionar token de autenticação
