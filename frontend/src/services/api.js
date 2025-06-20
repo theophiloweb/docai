@@ -17,7 +17,7 @@ const getUserType = () => {
 
 // Criar instância do Axios com configurações base
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || 'http://localhost:3001/api',
+  baseURL: process.env.REACT_APP_API_URL || 'http://localhosthttps://docai-backend-kdkm.onrender.com:3001/api',
   headers: {
     'Content-Type': 'application/json',
     'Accept': 'application/json'
